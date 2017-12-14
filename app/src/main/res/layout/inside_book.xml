@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+   >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Android in The Attic" />
+    <TextView
+        android:id="@+id/bookauthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:textAllCaps="true"
+        tools:text="Written By: Nicholas Allan "
+        />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:paddingTop="18dp"
+        tools:text="Aunt Edna has created a no-nonsense nanny android to make sure Billy and Alfie don't have any fun.Then Alfie discovers how to override Auntie Anne-Droid's programmin and nothing can stop them eating all the Cheeki Choko Cherry Cakes they like ... until the real aunt Edna is kidnapped" />
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+</LinearLayout>
